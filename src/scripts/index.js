@@ -110,6 +110,30 @@ workTl.to(
   '<'
 )
 
+var contactTl = gsap.timeline({
+  scrollTrigger: {
+    trigger: '.contact',
+    scroller: scrollEl,
+    start: 'top center',
+    end: 'bottom bottom',
+    scrub: 1,
+  },
+})
+
+contactTl.to('.page__container', {
+  backgroundColor: '#3e49cc',
+  color: '#fffafb',
+  ease: 'power2',
+})
+contactTl.to(
+  '.nav',
+  {
+    color: '#fffafb',
+    ease: 'power2',
+  },
+  '<'
+)
+
 // each time the window updates, we should refresh ScrollTrigger and then update LocomotiveScroll.
 ScrollTrigger.addEventListener('refresh', () => locoScroll.update())
 
