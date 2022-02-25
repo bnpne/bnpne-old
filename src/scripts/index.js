@@ -90,7 +90,7 @@ var workTl = gsap.timeline({
   scrollTrigger: {
     trigger: '.work',
     scroller: scrollEl,
-    start: 'top 10%',
+    start: 'top center',
     end: 'top bottom',
     scrub: 1,
   },
