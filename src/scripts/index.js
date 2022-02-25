@@ -97,7 +97,7 @@ var workTl = gsap.timeline({
 })
 
 workTl.to('.page__container', {
-  backgroundColor: '#131515',
+  backgroundColor: '#2a3c2b',
   color: '#fffafb',
   ease: 'power2',
 })
