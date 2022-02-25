@@ -1,0 +1,43 @@
+.hero {
+  position: relative;
+  height: 100%;
+  padding: 11rem 0;
+
+  &__text {
+    font-size: 17.95rem;
+    line-height: 14rem;
+
+    span {
+      overflow: hidden;
+    }
+  }
+
+  @include mobile {
+    position: relative;
+    height: 100%;
+    padding: 5rem 0 11rem 0;
+
+    &__text {
+      font-size: 4rem;
+      line-height: 4rem;
+
+      span {
+        overflow: hidden;
+      }
+    }
+  }
+  @include tablet {
+    position: relative;
+    height: 100%;
+    padding: 11rem 0;
+
+    &__text {
+      font-size: 10rem;
+      line-height: 10rem;
+
+      span {
+        overflow: hidden;
+      }
+    }
+  }
+}

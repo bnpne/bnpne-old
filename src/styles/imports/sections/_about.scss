@@ -1,0 +1,15 @@
+.about {
+  position: relative;
+  padding: 7rem 0 0 0;
+  height: 100%;
+  width: 100%;
+
+  &__break {
+    margin-top: 5rem;
+  }
+
+  &__workButton {
+    position: absolute;
+    right: 0;
+  }
+}

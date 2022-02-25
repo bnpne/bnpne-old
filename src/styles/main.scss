@@ -1,0 +1,21 @@
+// BASE & CONFIG
+@import './imports/mixins';
+@import './imports/fontface';
+@import './imports/config';
+@import './imports/normalize';
+@import './imports/base';
+// LOCOMOTIVE SCROLL
+@import './imports/locomotive-scroll.css';
+@import './imports/grid';
+@import './imports/nav';
+@import './imports/side';
+
+// PAGES
+@import './imports/page';
+@import './imports/sections/hero';
+@import './imports/sections/about';
+@import './imports/sections/work';
+@import './imports/sections/contact';
+
+// COMPONENTS
+@import './imports/components/card';

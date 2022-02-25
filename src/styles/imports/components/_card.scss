@@ -1,0 +1,64 @@
+.card {
+  position: relative;
+
+  &__callout {
+    position: absolute;
+    background-color: $cherry;
+    z-index: 2;
+    padding: 2rem 3rem;
+    width: 58rem;
+    left: 0;
+    margin: 2rem 0 10rem 10rem;
+    transform: rotate(-10deg);
+  }
+
+  &__title {
+    margin: 0 0 0 12rem;
+  }
+
+  &__chill {
+    margin: 0 0 0 6rem;
+  }
+
+  &__hero {
+    position: absolute;
+    font-size: 3.2rem;
+    padding: 2rem 3rem;
+    right: 0;
+
+    margin: 30rem 10rem 0 0;
+  }
+
+  &__offset {
+    &-1 {
+      margin-left: 5rem;
+    }
+    &-2 {
+      margin-left: 10rem;
+    }
+    &-3 {
+      margin-left: 15rem;
+    }
+  }
+
+  @include mobile {
+    &__hero {
+      position: absolute;
+      font-size: 2rem;
+      padding: 2rem 3rem;
+      right: 0;
+
+      margin: 20rem 10rem 0 0;
+    }
+  }
+  @include tablet {
+    &__hero {
+      position: absolute;
+      font-size: 2rem;
+      padding: 2rem 3rem;
+      right: 0;
+
+      margin: 20rem 10rem 0 0;
+    }
+  }
+}
